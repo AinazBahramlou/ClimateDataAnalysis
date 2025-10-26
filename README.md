@@ -1,4 +1,4 @@
-Szeged and Berlin: These repositories provide the input data.
+Szeged and Berlin: these repositories provide the input data.
 
 Inputs:
 
@@ -10,7 +10,7 @@ ListX.csv: ground-truth labels of training data
 
 ListY.csv: ground-truth labels of test data
 
-Execution Instructions:
+Execution instructions:
 
 You should run the BasicSOM.py, ClimSOM-TS-LDA.py, and ClimSOM-TS-PCA.py using the input data from the Berlin and Szeged datasets.
 
@@ -20,12 +20,12 @@ ClimSOM-TS-PCA.py and ClimSOM-TS-LDA.py (important parameters):n_components, M (
 
 Outputs:
 
-c.csv: Clustering performance
+c.csv, c-.csv: clustering performance (ClimSOM-TS-LDA.py, ClimSOM-TS-PCA.py)
 
-d1.csv: Clustering performance 
+d1.csv: clustering performance (BasicSOM)
 
-d.csv: Prediction model's performance
+d.csv, d-csv: prediction model's performance (ClimSOM-TS-LDA.py, ClimSOM-TS-PCA.py)
 
-Average accuracy
+Average accuracy (BasicSOM,ClimSOM-TS-LDA.py, ClimSOM-TS-PCA.py) 
 
-Average running time
+Average running time (BasicSOM,ClimSOM-TS-LDA.py, ClimSOM-TS-PCA.py) 
