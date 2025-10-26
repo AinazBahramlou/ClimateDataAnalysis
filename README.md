@@ -26,6 +26,6 @@ d1.csv: clustering performance (BasicSOM)
 
 d.csv, d-csv: prediction model's performance (ClimSOM-TS-LDA.py, ClimSOM-TS-PCA.py)
 
-Average accuracy (BasicSOM,ClimSOM-TS-LDA.py, ClimSOM-TS-PCA.py) 
+Average accuracy (ClimSOM-TS-LDA.py, ClimSOM-TS-PCA.py) 
 
 Average running time (BasicSOM,ClimSOM-TS-LDA.py, ClimSOM-TS-PCA.py) 
